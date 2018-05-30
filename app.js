@@ -16,7 +16,7 @@ const cors         = require('cors');
 mongoose.Promise = Promise;
 //se conecta base de datos de mlab
 mongoose
-  .connect('mongodb://francovargas:FRvh1358.@ds117336.mlab.com:17336/iron-bitch', {useMongoClient: true})
+  .connect('mongodb://francovargas:FRvh1358.@ds117336.mlab.com:17336/iron-bitch')
   .then(() => {
     console.log('Connected to Mongo!')
   }).catch(err => {
