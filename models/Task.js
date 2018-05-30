@@ -29,7 +29,7 @@ const taskSchema = new Schema({
         // required: true
     },
     completed: Boolean,
-    evidences: [String],
+    evidences: String,
     recurrent: Boolean,
 },{
     timestamps: {
